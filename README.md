@@ -94,14 +94,13 @@ We used Claude throughout this project for:
 
 ## Project Files
 
-| File | Description |
-|---|---|
-| `clean_data.py` | Python data cleaning script |
-| `Unloket_Presentation_v3.pptx` | Final presentation deck |
-| Tableau workbook | Linked below |
+File | Description 
+`clean_data.py` | Python data cleaning script 
+`Unloket_Presentation_v3.pptx` | Final presentation deck 
+Tableau workbook 
 
 ---
 
-## Tableau Workbook
+## Public Tableau Workbook
 
-[Link to Tableau workbook — add after publishing]
+(https://public.tableau.com/app/profile/quinn.dziwura/viz/UnloketDashboardV2_1/Dashboard22?publish=yes)
