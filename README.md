@@ -96,12 +96,11 @@ We used Claude throughout this project for:
 
 ## Project Files
 
-File | Description 
-`clean_data.py` | Python data cleaning script 
-`Unloket_Presentation_v3.pptx` | Final presentation deck 
-Tableau workbook | Final Tableau Workbook
-'Inkscape before.png' | Our first Inkscape File
-'Inkscape After.svg' | Our finalized Inkscape File
+| File | Description |
+| `clean_data.py` | Python data cleaning script |
+| `Unloket_Slides.pptx` | Final presentation deck |
+| `Inkscape_before.png` | Dashboard screenshot before Inkscape annotation |
+| `Inkscape_After.svg` | Finalized annotated Inkscape file |
 
 
 ---
