@@ -5,8 +5,8 @@ Odysseas Koufos · Miltiadis Hadjipanayiotou · Quinn Dziwura
 # What This Project Is
 
 Unloket is an AI hospitality concierge platform founded by Odysseas Koufos. It handles guest messaging automatically over SMS and WhatsApp for hotel properties, and is currently a finalist in the 2026 New Venture Challenge at the University of Chicago.
+For this project, Odysseas gave us direct access to operational data from multiple properties and testing cycles. Our goal was to build a dashboard that provides actionable insights to hotel management, owners of small independent hotels, and short-term stay operators.
 
-For this project, Odysseas gave us direct access to real operational data from a live pilot property operating the Unloket platform. Our goal was to build a dashboard that provides actionable insights to hotel management.
 
 
 ## The Question We're Answering
@@ -14,15 +14,19 @@ For this project, Odysseas gave us direct access to real operational data from a
 For hotel operators using Unloket: what is actually happening on your property, and is the AI concierge working?
 
 We also sought to answer:
-- What are guests asking about most?
-- How fast is the system responding?
-- How satisfied are guests with AI-handled interactions?
-- What types of requests is the AI escalating to human staff members?
-- What is the platform saving the property in a dollar amount?
+- How responsive the solution is
+- Guest engagement with the messaging platform
+- Guest satisfaction
+- How much work is the AI handling vs staff
+- How much money does the AI saves
+- What are the most asked FAQs
+- What inquiries create the most problems
+- What can the AI not handle well
+- What should management do next
 
 ## Target Audience
 
-Hotel managers contemplating or currently using the Unloket platform. This dashboard is designed to be a live operational tool for day-to-day monitoring, as well as a proof-of-ROI model for pitching Unloket's model.
+Hotel managers and small hotel owners contemplating or currently using the Unloket platform. This dashboard is designed to be a live operational tool for day-to-day monitoring, as well as a proof-of-ROI model for pitching Unloket's model. Small hotel owners need to wear multiple hats and need a complete set of data and information to make strategic decisions.
 
 ## The Dataset Used
 
@@ -56,6 +60,9 @@ Steps taken:
 - Python (pandas): data cleaning and validation
 - Inkscape: annotated dashboard export for presentation context
 - Google Slides: presentation deck
+- Claude: used to clean the data first by exporting CSV files. The data was qualitative, and we asked Claude to restructure and code in order to categorize the data. Claude was also used in - -
+- Inkscape to tune and refine visuals.
+
 
 
 ## Design Decisions
@@ -64,12 +71,7 @@ Color: We used Unloket's brand palette throughout: primary navy `#1A2E35`, gold 
 
 Typography: Newsreader (serif) for headlines, Manrope (sans-serif) for body and labels to matching Unloket's style guide.
 
-Gestalt principles applied:
-- Proximity: KPI tiles are grouped at the top as a unified summary row, visually separated from the detailed charts below
-- Similarity: Consistent card styling across all KPI tiles signals they belong to the same category of information
-- Figure/ground: Dark primary color on light background creates clear hierarchy throughout
-- Continuity: The 'Total Message Count' line guides the eye naturally across the time axis,making the trend readable without much effort.
-- Connection: The date slider across the top links all charts simultaneously, showing the viewer than all the visuals and KPI's share the same dataset.  
+
 
 Chart choices:
 - Bar charts for category comparisons as they are easy to rank visually and straightforward to understand. 
@@ -79,11 +81,10 @@ Chart choices:
 
 ## Limitations and Assumptions
 
-- The data used only covers a single hotel property, our findings may not generalize to all hotels of varying types or sizes.
+- The data used covers multiple properties as well as data from testing periods of the solution.
 - Satisfaction scores are self-reported by guests and only available for a subset of conversations.
-- "Money Saved" KPI is an estimate based on assumed staff hourly cost and average handling time, it is not an audited figure as it is merely an educated estimation.
-- Response time outliers suggest some conversations were left open for extended periods, which may reflect edge cases rather than typical operations.
-- We cannot confirm whether all messages in the dataset represent unique guests
+- "Money Saved" KPI is an estimate based on assumed staff hourly cost and average handling time; it is not an audited figure, as it is merely an educated estimation.
+- Most of the data does not represent new guests at the hotels. This is because entries were also from testing periods. Most of the recorded requests were made by two phone numbers: +30 6987408304   and +1 (704) 706-0066. Every new interaction from these phone numbers was treated as a new entry, and customers in the hotels.
 
 ## How We Used LLMs
 
