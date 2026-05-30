@@ -68,6 +68,8 @@ Gestalt principles applied:
 - Proximity: KPI tiles are grouped at the top as a unified summary row, visually separated from the detailed charts below
 - Similarity: Consistent card styling across all KPI tiles signals they belong to the same category of information
 - Figure/ground: Dark primary color on light background creates clear hierarchy throughout
+- Continuity: The 'Total Message Count' line guides the eye naturally across the time axis,making the trend readable without much effort.
+- Connection: The date slider across the top links all charts simultaneously, showing the viewer than all the visuals and KPI's share the same dataset.  
 
 Chart choices:
 - Bar charts for category comparisons as they are easy to rank visually and straightforward to understand. 
@@ -97,7 +99,8 @@ We used Claude throughout this project for:
 File | Description 
 `clean_data.py` | Python data cleaning script 
 `Unloket_Presentation_v3.pptx` | Final presentation deck 
-Tableau workbook 
+Tableau workbook | Final Tableau Workbook
+'Google Drive - DataViz' | Google Drive containing our before and after Inkscape
 
 ---
 
