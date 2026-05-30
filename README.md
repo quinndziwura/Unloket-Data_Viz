@@ -30,7 +30,7 @@ Hotel managers and small hotel owners contemplating or currently using the Unlok
 
 ## The Dataset Used
 
-- Live SMS and WhatsApp conversation logs pulled directly from the Unloket platform
+- Live SMS and WhatsApp conversation logs pulled directly from the Twillio platform provided by Unloket
 - Totaling 3,641 messages, across 27 fields
 - Dates ranging from December 2025 – April 2026
 
@@ -56,12 +56,13 @@ Steps taken:
 
 ## Tools Used
 
-- Tableau: primary dashboard and all visualizations
-- Python (pandas): data cleaning and validation
-- Inkscape: annotated dashboard export for presentation context
-- Google Slides: presentation deck
-- Claude: used to clean the data first by exporting CSV files. The data was qualitative, and we asked Claude to restructure and code in order to categorize the data. Claude was also used in - -
-- Inkscape to tune and refine visuals.
+- Tableau troubleshooting: resolving data source connection errors and building calculated fields
+- Cleaning the data: exporting original CSV files. We restructured it and coded it to categorize entries
+- ChatGPT: data filtering, categorization. Also used during Inkscape construction to make changes and fine-tune, as well as to translate the official Unloket dashboard from a PNG file to an SVG file to edit in Inkscape
+- Python script development: writing and debugging the data cleaning script
+- Presentation deck: primarily to match Unloket's color scheme
+- README writeup: used solely for the layout and structure of standard README files, not for the content of the file
+
 
 
 
@@ -71,13 +72,18 @@ Color: We used Unloket's brand palette throughout: primary navy `#1A2E35`, gold 
 
 Typography: Newsreader (serif) for headlines, Manrope (sans-serif) for body and labels to matching Unloket's style guide.
 
-
+Gestalt principles applied:
+Proximity: KPI tiles are grouped at the top as a unified summary row, visually separated from the detailed charts below
+Similarity: Consistent card styling across all KPI tiles signals they belong to the same category of information
+Figure/ground: Dark primary color on light background creates clear hierarchy throughout
+Continuity: The Total Message Count line chart guides the eye naturally across the time axis, making the trend readable without effort
+Connection: The date slider at the top links all charts simultaneously, signaling to the viewer that every visual shares the same underlying dataset
+Closure: Bar charts use consistent lengths that the eye reads as complete comparisons without needing additional visual framing
 
 Chart choices:
 - Bar charts for category comparisons as they are easy to rank visually and straightforward to understand. 
 - Line chart for message volume over time to show trends and usage spikes.
-- Text KPI tiles for single-number metrics as there was no chart needed, the message only requires a single number figure. 
-
+- Text KPI tiles for single-number metrics as there was no chart needed, the message only requires a single number figure.
 
 ## Limitations and Assumptions
 
