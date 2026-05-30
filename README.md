@@ -102,7 +102,7 @@ We used Claude throughout this project for:
 | `Unloket_Slides.pptx` | Final presentation deck |
 | `Inkscape_before.png` | Dashboard screenshot before Inkscape annotation |
 | `Inkscape_After.svg` | Finalized annotated Inkscape file |
-
+| 'Unloket-Data_Viz_Writeup.pdf' | The writeup we used to draft this README file
 
 ---
 
