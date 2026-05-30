@@ -100,7 +100,9 @@ File | Description
 `clean_data.py` | Python data cleaning script 
 `Unloket_Presentation_v3.pptx` | Final presentation deck 
 Tableau workbook | Final Tableau Workbook
-'Google Drive - DataViz' | Google Drive containing our before and after Inkscape
+'Inkscape before.png' | Our first Inkscape File
+'Inkscape After.svg' | Our finalized Inkscape File
+
 
 ---
 
