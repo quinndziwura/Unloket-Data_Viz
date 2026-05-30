@@ -68,7 +68,7 @@ Steps taken:
 
 ## Design Decisions
 
-Color: We used Unloket's brand palette throughout: primary navy `#1A2E35`, gold `#C5B358`, sage `#7D8C7F`, and warm off-white `#F9F7F2`. We did this to create consistency between the dashboard and the company's existing brand identity and color scheme.
+Color: We used Unloket's brand palette throughout: primary navy `#1A2E35`, sage `#7D8C7F`, and warm off-white `#F9F7F2`. We did this to create consistency between the dashboard and the company's existing brand identity and color scheme.
 
 Typography: Newsreader (serif) for headlines, Manrope (sans-serif) for body and labels to matching Unloket's style guide.
 
