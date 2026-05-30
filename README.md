@@ -73,12 +73,12 @@ Color: We used Unloket's brand palette throughout: primary navy `#1A2E35`, gold 
 Typography: Newsreader (serif) for headlines, Manrope (sans-serif) for body and labels to matching Unloket's style guide.
 
 Gestalt principles applied:
-Proximity: KPI tiles are grouped at the top as a unified summary row, visually separated from the detailed charts below
-Similarity: Consistent card styling across all KPI tiles signals they belong to the same category of information
-Figure/ground: Dark primary color on light background creates clear hierarchy throughout
-Continuity: The Total Message Count line chart guides the eye naturally across the time axis, making the trend readable without effort
-Connection: The date slider at the top links all charts simultaneously, signaling to the viewer that every visual shares the same underlying dataset
-Closure: Bar charts use consistent lengths that the eye reads as complete comparisons without needing additional visual framing
+- Proximity: KPI tiles are grouped at the top as a unified summary row, visually separated from the detailed charts below
+- Similarity: Consistent card styling across all KPI tiles signals they belong to the same category of information
+- Figure/ground: Dark primary color on light background creates clear hierarchy throughout
+- Continuity: The Total Message Count line chart guides the eye naturally across the time axis, making the trend readable without effort
+- Connection: The date slider at the top links all charts simultaneously, signaling to the viewer that every visual shares the same underlying dataset
+- Closure: Bar charts use consistent lengths that the eye reads as complete comparisons without needing additional visual framing
 
 Chart choices:
 - Bar charts for category comparisons as they are easy to rank visually and straightforward to understand. 
